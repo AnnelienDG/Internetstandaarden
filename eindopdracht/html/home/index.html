@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="../../css/stylesheet.css">
+</head>
+
+<body>
+    <section id="galaxy">
+        <h1 id="title">STAR WARS GALAXY</h1>
+        <nav id="homenav">
+            <ul>
+                <li class="planetmenu">
+                    <a href="../planets/bespin.html">
+                      <img src="../../images/planet-bespin.png" alt="Planet of Bespin" class="planet">
+                       <span id="tekstplanet1">Bespin</span>
+                       
+                   </a>
+                </li>
+                <li class="planetmenu">
+                    <a href="../planets/coruscant.html">
+                       <img src="../../images/planet-coruscant.png" alt="Planet of Coruscant" class="planet">
+                        <span id="tekstplanet2">Coruscant</span>
+                        
+                    </a>
+                </li>
+                <li class="planetmenu">
+                    <a href="../planets/endor.html">
+                       <img src="../../images/planet-endor.png" alt="Planet of Endor" class="planet">
+                        <span id="tekstplanet3">Endor</span>
+                        
+                    </a>
+                </li>
+                <li class="planetmenu">
+                    <a href="../planets/hoth.html">
+                        <img src="../../images/planet-hoth.png" alt="Planet of Hoth" class="planet">
+                        <span id="tekstplanet4">Hoth</span>
+                        
+                    </a>
+                </li>
+                <li class="planetmenu">
+                    <a href="../planets/kamino.html">
+                       <img src="../../images/planet-kamino.png" alt="Planet of Kamino" class="planet">
+                        <span id="tekstplanet5">Kamino</span>
+                        
+                    </a>
+                </li>
+                <li class="planetmenu">
+                    <a href="../planets/kashyyyk.html">
+                       <img src="../../images/planet-kashyyyk.png" alt="Planet of Kashyyyk" class="planet">
+                        <span id="tekstplanet9">Kashyyyk</span>
+                        
+                    </a>
+                </li>
+                <li class="planetmenu">
+                    <a href="../planets/naboo.html">
+                       <img src="../../images/planet-naboo.png" alt="Planet of Naboo" class="planet">
+                        <span id="tekstplanet6">Naboo</span>
+                        
+                    </a>
+                </li>
+                <li class="planetmenu">
+                    <a href="../planets/tatooine.html">
+                       <img src="../../images/planet-tatooine.png" alt="Planet of Tatooine" class="planet">
+                        <span id="tekstplanet7">Tatooine</span>
+                        
+                    </a>
+                </li>
+                <li class="planetmenu">
+                    <a href="../planets/yavin-iv.html">
+                       <img src="../../images/planet-yavin4.png" alt=" Planet of Yavin IV" class="planet">
+                        <span id="tekstplanet8">Yavin IV</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <section id="create">
+        <header id="kopcreate">
+            <h1>CREATE WORLD</h1>
+        </header>
+        <main>
+            <p id="intro">Describe your own authentic Star Wars world and who knows, maybe it will be created by our designers and added to our beloved Star Wars galaxy far, far away.</p>
+        </main>
+        <form action="submitted.html#submitted" method="get">
+            <fieldset id="general">
+                <p>
+                    <label for="titleworld">Name world</label>
+                    <input type="text" name="title" id="titleworld">
+                </p>
+                <p>
+                    <label for="description">Description</label>
+                    <textarea name="description" id="description" cols="25" rows="7" placeholder="Describe your world as accurately as possible"></textarea>
+                </p>
+                <p>
+                    <label for="climate">Climate</label>
+                    <input type="text" name="climate" id="climate" placeholder="Example: Tropical">
+                </p>
+            </fieldset>
+            <fieldset id="species">
+                <p>
+                    <label for="human">Prominent species</label>
+                </p>
+                <p class="p-species">
+                    <input type="checkbox" name="human" id=human>
+                    <label for="human" class="labelcheckbox"><span class="optie">Human</span></label>
+                </p>
+                <p class="p-species">
+                    <input type="checkbox" name="sullustan" id=sullustan>
+                    <label for="sullustan" class="labelcheckbox"><span class="optie2">Sullustan</span></label>
+                </p>
+                <p class="p-species">
+                    <input type="checkbox" name="kel-dor" id=kel-dor>
+                    <label for="kel-dor" class="labelcheckbox"><span class="optie3">Kel Dor</span></label>
+                </p>
+                <p class="p-species">
+                    <input type="checkbox" name="trandoshan" id=trandoshan>
+                    <label for="trandoshan" class="labelcheckbox"><span class="optie4">Trandoshan</span></label>
+                </p>
+                <p class="p-species">
+                    <input type="checkbox" name="twilek" id=twilek>
+                    <label for="twilek" class="labelcheckbox"><span class="optie5">Twi'lek</span></label>
+                </p>
+                <p class="p-species">
+                    <input type="checkbox" name="rodian" id=rodian>
+                    <label for="rodian" class="labelcheckbox"><span class="optie6">Rodian</span></label>
+                </p>
+            </fieldset>
+            <fieldset id="name">
+                <p>
+                    <label for="yourname">Your name</label>
+                    <input type="text" name="name" id="yourname" placeholder="Example: John Smith">
+                </p>
+                <p>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="example@provider.com">
+                </p>
+
+            </fieldset>
+            <input type="submit" name="send" value="Submit">
+        </form>
+    </section>
+    <section id="source">
+        <h2 id="kopsource">Sources</h2>
+        <a href="sources.html" id="linksource">View Sources</a>
+    </section>
+</body>
+
+</html>
